@@ -15,7 +15,7 @@ public class Frames1 {
     //		driver.switchTo().frame(frame);
 		WebElement lgn = driver.findElement(By.xpath("//input[@type='text']"));
         lgn.sendKeys("thilip1123");
-        
+        driver.quit();
 	}
 
 }
